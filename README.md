@@ -20,4 +20,10 @@ nrepeat =100
 
 type(nrepeat)
 
-4. 
+4. Indent multiple lines:
+
+Ctrl ]
+
+Dedent multiple lines:
+
+Ctrl [
