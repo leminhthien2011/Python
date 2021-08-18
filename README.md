@@ -27,3 +27,7 @@ Ctrl ]
 Dedent multiple lines:
 
 Ctrl [
+
+5. Descriptive statistics of vector a
+
+scipy.stats.describe(a)
