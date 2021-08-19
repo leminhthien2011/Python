@@ -100,7 +100,11 @@ quit()
 
 conda show
 
-11. 
+11. Update a package by:
+
+conda update package
+
+
 
 
 
