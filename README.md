@@ -58,7 +58,7 @@ conda install numpy
 
 conda uninstall numpy 
 
-c. Some times using conda doesnot work for a certain package due to conda not updated fast enough the need to do pip on the Anaconda prompt instead, so 
+c. Some times using conda doesnot work for a certain package due to conda not updated fast enough then we need to do pip on the Anaconda prompt instead, so 
 
 pip install numpy
 
