@@ -96,7 +96,11 @@ py -m ensurepip --default-pip (on the cmd prompt)
 
 quit()
 
-10. 
+10. Check all packages available in conda by:
+
+conda show
+
+11. 
 
 
 
