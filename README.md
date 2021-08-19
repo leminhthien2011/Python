@@ -56,13 +56,27 @@ b. With anaconda prompt:
 
 conda install numpy 
 
-conda uninstall numpy 
+Install in a certain environment by:
+
+conda install --name myenv iopro
+
+Remove a package by 
+
+conda remove numpy 
 
 c. Some times using conda doesnot work for a certain package due to conda not updated fast enough then we need to do pip on the Anaconda prompt instead, so 
 
 pip install numpy
 
-pip uninstall numpy
+pip remove numpy
+
+Or uninstall multiple packages by:
+
+pip remove numpy pandas
+
+Or uninstall a package in an environment by
+
+conda remove -n myenv numpy
 
 d. For packages on github (on anaconda prompt)
 
