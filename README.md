@@ -105,6 +105,13 @@ conda show
 conda update package
 
 
+12.Look at inside a function and learn how it was created by the inspect module.
+
+import inspect
+
+inspect.getsourcelines(EoN.get_infected_nodes) # Look at the function EoN.get_infected_nodes line by line
+
+
 
 
 
