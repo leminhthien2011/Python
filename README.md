@@ -111,6 +111,12 @@ import inspect
 
 inspect.getsourcelines(EoN.get_infected_nodes) # Look at the function EoN.get_infected_nodes line by line
 
+13. Column sum or row sum of a matrix
+
+Columnsum of A: A.sum(axis=0,dtype='float')
+
+Rowsum of A: A.sum(axis=1,dtype='float')
+
 
 
 
