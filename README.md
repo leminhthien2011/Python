@@ -121,6 +121,11 @@ Rowsum of A: A.sum(axis=1,dtype='float')
 
 G.number_of_nodes()
 
+15. Learn information avaialble from a module by using:
+
+help(EoN): Learn the most general information of EoN
+
+dir(EoN): Know all functions available in EoN module
 
 
 
