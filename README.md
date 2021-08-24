@@ -117,6 +117,13 @@ Columnsum of A: A.sum(axis=0,dtype='float')
 
 Rowsum of A: A.sum(axis=1,dtype='float')
 
+14. Check number of nodes in networkx:
+
+G.number_of_nodes()
+
+
+
+
 
 
 
