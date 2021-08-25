@@ -135,6 +135,12 @@ dict(G.degree()) : Give the dictionary for each node and its corresponding degre
 
 Counter(dict(G.degree()).values()): Make all degree as a frequency sequence
 
+17. Delete an index in an array A with numpy:
+
+np.delete(A, index)
+
+
+
 
 
 
