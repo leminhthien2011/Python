@@ -127,6 +127,16 @@ help(EoN): Learn the most general information of EoN
 
 dir(EoN): Know all functions available in EoN module
 
+16. Check degree distribution and count 
+
+from collections import Counter
+
+dict(G.degree()) : Give the dictionary for each node and its corresponding degree
+
+Counter(dict(G.degree()).values()): Make all degree as a frequency sequence
+
+
+
 
 
 
