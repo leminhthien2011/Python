@@ -139,6 +139,14 @@ Counter(dict(G.degree()).values()): Make all degree as a frequency sequence
 
 np.delete(A, index)
 
+18. Maximum index of a matrix
+
+A.max() # max elements wise
+
+A.max(0) # max each column
+
+A.max(1) # max each row
+
 
 
 
