@@ -147,6 +147,12 @@ A.max(0) # max each column
 
 A.max(1) # max each row
 
+19. Extract the ajacency matrix of a network:
+
+A1 = nx.adjacency_matrix(G, nodelist=None, dtype=None, weight='weight')
+
+Ajacency_mat = A1.todense()
+
 
 
 
