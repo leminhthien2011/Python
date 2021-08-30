@@ -153,6 +153,12 @@ A1 = nx.adjacency_matrix(G, nodelist=None, dtype=None, weight='weight')
 
 Ajacency_mat = A1.todense()
 
+20. Extract numbers from a list:
+
+float(mylist[i]) # converge (i+1)-th element of mylist to a float number
+
+
+
 
 
 
