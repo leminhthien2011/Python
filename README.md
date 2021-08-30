@@ -157,6 +157,12 @@ Ajacency_mat = A1.todense()
 
 float(mylist[i]) # converge (i+1)-th element of mylist to a float number
 
+21. Print out all neighbors of a node:
+
+list(G.neighbors(1)) #print out neigbors of node 1 in the G graph
+
+22. 
+
 
 
 
