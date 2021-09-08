@@ -125,6 +125,8 @@ G.number_of_nodes()
 
 help(EoN): Learn the most general information of EoN
 
+help(EoN.get_infected_nodes) : Learn how to use the get_infected_nodes function of EoN
+
 dir(EoN): Know all functions available in EoN module
 
 16. Check degree distribution and count 
