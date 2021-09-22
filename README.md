@@ -163,7 +163,12 @@ float(mylist[i]) # converge (i+1)-th element of mylist to a float number
 
 list(G.neighbors(1)) #print out neigbors of node 1 in the G graph
 
-22. 
+22. Make a line graph of 20 nodes
+
+L =nx.path_graph(20)
+
+nx.draw(L, with_labels=True)
+
 
 
 
