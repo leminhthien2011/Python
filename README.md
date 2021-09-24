@@ -169,6 +169,19 @@ L =nx.path_graph(20)
 
 nx.draw(L, with_labels=True)
 
+23. Take difference lag 1 of a vector A
+
+np.diff(A, n=1)
+
+24. Remove k-th element of a vector A
+
+np.delete(A, k)
+
+
+
+
+
+
 
 
 
