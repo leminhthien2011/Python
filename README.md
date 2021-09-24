@@ -1,5 +1,6 @@
-# Python
-#1.Check the current python version
+# PYTHON
+
+# 1.Check the current python version
 
 a. Check directly on the editor:
 
@@ -15,7 +16,7 @@ c. Check on cmd prompt
 
 py --version
 
-2. 
+# 2. Comment out
 a. Comment out multiple lines
 
 choose all the lines, then ctr+4. 
