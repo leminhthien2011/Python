@@ -1,5 +1,5 @@
 # Python
-1. Check the current python version
+#1.Check the current python version
 
 a. Check directly on the editor:
 
