@@ -183,7 +183,17 @@ nrepeat =100
 type(nrepeat)
 
 
+# 25. Save figure at a given folder
 
+After done with the plot, say here we save figure with some variables N, e.g. N = 7
+
+N=7
+
+plot_dir = "C:\\Users\\thl902\\Desktop\\HIV\\1.Workingprogress\\Sep28\\"
+
+plot_name = "myplot" + str(N) + ".pdf"
+
+plt.savefig(plot_dir + plot_name)
 
 
 
