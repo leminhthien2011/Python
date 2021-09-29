@@ -195,7 +195,7 @@ plot_name = "myplot" + str(N) + ".pdf"
 
 plt.savefig(plot_dir + plot_name)
 
-# 26. Working with nan values
+# 26. Working with nan values and index of a vector
 
 Replace nan values of a vector A by 0s:
 
@@ -205,6 +205,14 @@ Remove all the nan values of a vector A:
 
 A[~np.isnan(A)]
 
+Return all the nan indecies of a vector A:
+
+np.argwhere(np.isnan(A))
+
+
+Keep components greater than a threshold, say 1, of vector A
+
+A = A[A>1]
 
 
 
