@@ -214,8 +214,10 @@ Keep components greater than a threshold, say 1, of vector A
 
 A = A[A>1]
 
+# 27. Make plots title with mutiple Arguments, say N, nrepeat, and num_time_steps
 
-
+plt.title('Complete graph of N=%i nodes - rep=%i - steps=%i' %( N,nrepeat,num_time_steps))
+#
 
 
 
