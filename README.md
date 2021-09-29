@@ -195,6 +195,19 @@ plot_name = "myplot" + str(N) + ".pdf"
 
 plt.savefig(plot_dir + plot_name)
 
+# 26. Working with nan values
+
+Replace nan values of a vector A by 0s:
+
+np.nan_to_num(A, copy=True, nan=0.0)
+
+Remove all the nan values of a vector A:
+
+A[~np.isnan(A)]
+
+
+
+
 
 
 
