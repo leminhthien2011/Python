@@ -219,7 +219,9 @@ A = A[A>1]
 plt.title('Complete graph of N=%i nodes - rep=%i - steps=%i' %( N,nrepeat,num_time_steps))
 #
 
+# 28. Check type of an object A
 
+type(A)
 
 
 
