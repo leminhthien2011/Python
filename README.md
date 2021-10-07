@@ -217,7 +217,18 @@ A = A[A>1]
 # 27. Make plots title with mutiple Arguments, say N, nrepeat, and num_time_steps
 
 plt.title('Complete graph of N=%i nodes - rep=%i - steps=%i' %( N,nrepeat,num_time_steps))
-#
+
+# 28. Append number to a list with loop, say from an empty loop to [0,1,2,3,4]
+
+A = []
+
+for i in range(5):
+    A.append(i)
+
+Return: a list as [0,1,2,3,4]
+
+
+    
 
 
 
