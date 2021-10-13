@@ -137,13 +137,17 @@ Counter(dict(G.degree()).values()): Make all degree as a frequency sequence
 
 np.delete(A, index)
 
-# 18. Maximum index of a matrix
+# 18. Maximum, Minimum, Mean of a matrix
 
 A.max() # max elements wise
 
 A.max(0) # max each column
 
 A.max(1) # max each row
+
+A.min(1) # min each row
+
+A.mean(1) # mean each row
 
 # 19. Extract the ajacency matrix of a network:
 
