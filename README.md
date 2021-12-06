@@ -199,6 +199,14 @@ plot_name = "myplot" + str(N) + ".pdf"
 
 plt.savefig(plot_dir + plot_name)
 
+# 25b. Check current directory and change to another
+
+import os
+
+os.getcwd()
+
+os.chdir('C:\\Users\\thl902\\Desktop\\CONET_Revision')
+
 # 26. Working with nan values and index of a vector
 
 Replace nan values of a vector A by 0s:
