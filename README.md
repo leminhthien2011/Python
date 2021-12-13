@@ -239,6 +239,20 @@ for i in range(5):
 
 Return: a list as [0,1,2,3,4]
 
+# 29. Read txt file
+#use np and skip the first row
+
+import numpy as np
+
+with open('trafficdatatop2020.txt') as f:
+    lines = (line for line in f if not line.startswith('#'))
+    mydata = np.loadtxt(lines, delimiter=',', skiprows=1)
+#use pandas
+
+import pandas as pd
+
+mydata = pd.read_csv("trafficdatatop2020.txt", sep=" ")
+
 
     
 
