@@ -255,7 +255,11 @@ mydata = pd.read_csv("trafficdatatop2020.txt", sep=" ")
 
 
     
+# 30. Create an arrange of numbers
 
+import numpy as np
+
+np.arange(0, 4.5, 0.5) #outputs: 0,0.5,...,3.5,4
 
 
 
