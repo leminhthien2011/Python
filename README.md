@@ -262,9 +262,12 @@ import numpy as np
 np.arange(0, 4.5, 0.5) #outputs: 0,0.5,...,3.5,4
 
 
+# 31. Make a name with mixed of letters, integer, and float of 2 decimals
+N =100
+p = .5
+plt.title('Mean total infected for a ER graph of N=%i nodes, p=%.2f'% (N,p))
 
-
-
+The title output then: Mean total infected for a ER graph of N= 100 nodes, p=.5
 
 
 
