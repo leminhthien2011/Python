@@ -1,5 +1,11 @@
 # PYTHON
 
+# Remove self-loop edges (networkx version 2, 3)
+
+G.remove_edges_from(nx.selfloop_edges(G))
+
+
+
 # 1.Check the current python version
 
 a. Check directly on the editor:
