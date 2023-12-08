@@ -269,6 +269,11 @@ plt.title('Mean total infected for a ER graph of N=%i nodes, p=%.2f'% (N,p))
 
 The title output then: Mean total infected for a ER graph of N= 100 nodes, p=.5
 
+# 32. Check package version
+import networkx as nx
+print(nx.__version__)
+
+
 
 
 
