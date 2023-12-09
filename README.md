@@ -1,6 +1,8 @@
 # PYTHON
 
-# 12. Fill diagonal with 0, Get the upper/lower triangular matrix (networkx version 2, 3)
+
+
+# 12. Fill diagonal with 0, Get the upper/lower triangular matrix, Show nonzero loaction (networkx version 2, 3)
 
 
 import numpy as np
@@ -12,6 +14,8 @@ A = nx.to_numpy_array(G) #extract matrix A from G
 np.fill_diagonal(A, 0) # Equivalent to remove self-loops 
 
 A1 = np.tril(A,k=0) # Get lower triangular, use np.triu(A,k=0) for upper triangular
+
+A2 = np.transpose(np.nonzero(A1)) #show all non zero position of A1
 
 # 11. Convert network to matrix and vice versa (networkx version 2, 3)
 
