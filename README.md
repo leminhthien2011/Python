@@ -2,7 +2,7 @@
 
 
 
-# 12. Fill diagonal with 0, Get the upper/lower triangular matrix, Show nonzero loaction (networkx version 2, 3)
+# 12. Fill diagonal with 0, Get the upper/lower triangular matrix, Show nonzero location (networkx version 2, 3)
 
 
 import numpy as np
