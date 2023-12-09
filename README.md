@@ -1,6 +1,6 @@
 # PYTHON
 
-# -1. Convert network to matrix and vice versa (networkx version 2, 3)
+# 11. Convert network to matrix and vice versa (networkx version 2, 3)
 
 import networkx as nx
 import numpy as np
