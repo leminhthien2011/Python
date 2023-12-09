@@ -1,5 +1,18 @@
 # PYTHON
 
+# 12. Fill diagonal with 0, Get the upper/lower triangular matrix (networkx version 2, 3)
+
+
+import numpy as np
+
+G = nx.complete_graph(4)
+
+A = nx.to_numpy_array(G) #extract matrix A from G
+
+np.fill_diagonal(A, 0) # Equivalent to remove self-loops 
+
+A1 = np.tril(A,k=0) # Get lower triangular, use np.triu(A,k=0) for upper triangular
+
 # 11. Convert network to matrix and vice versa (networkx version 2, 3)
 
 import networkx as nx
