@@ -1,6 +1,18 @@
 # PYTHON
 
-# Remove self-loop edges (networkx version 2, 3)
+# -1. Convert network to matrix and vice versa (networkx version 2, 3)
+
+import networkx as nx
+import numpy as np
+
+G = nx.complete_graph(4)
+nx.draw(G, with_labels =1) #draw G to check
+A = nx.to_numpy_array(G) #extract matrix A from G
+G1 = nx.from_numpy_array(A)  #make graph G1 from matrix A
+nx.draw(G1, with_labels =1) #draw G1 to check
+
+
+# 0. Remove self-loop edges (networkx version 2, 3)
 
 G.remove_edges_from(nx.selfloop_edges(G))
 
