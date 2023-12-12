@@ -282,6 +282,7 @@ import numpy as np
 with open('trafficdatatop2020.txt') as f:
     lines = (line for line in f if not line.startswith('#'))
     mydata = np.loadtxt(lines, delimiter=',', skiprows=1)
+    
 #use pandas
 
 import pandas as pd
