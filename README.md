@@ -1,6 +1,18 @@
 # PYTHON
 
+# 13. Define our own summary function
 
+def mysummaryfunction(x):
+    val1 = np.mean(x)
+    val2 = np.std(x)
+    val3 = np.median(x)
+    val4 = np.min(x)
+    val5 = np.max(x)
+    val6 = np.sum(x)
+    val7 = len(x)
+    mydict = {"mean":val1, "std": val2, "median": val3, "min": val4,"max":val5 ,"sum": val6,
+              "length":val7}
+    return mydict
 
 # 12. Fill diagonal with 0, Get the upper/lower triangular matrix, Show nonzero location (networkx version 2, 3)
 
