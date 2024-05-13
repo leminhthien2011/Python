@@ -1,4 +1,8 @@
 # PYTHON
+# 14. Flatten a matrix to one vector of elementwise
+
+M = [[1,2],[3,4],[5,6]]
+np.array(M).flatten()
 
 # 13. Define our own summary function
 
