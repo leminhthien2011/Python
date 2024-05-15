@@ -1,13 +1,12 @@
 # PYTHON
 # 15. Sort order of a vector
-x = np.array([1,3,2,4])
-idx_sort = np.argsort(x) #get the order of elements in x, smallest to largest
+x = np.array([1,4,2,3])
+idx_sort = np.argsort(x) #return id of numbers from smallest to largest
 
 idx_sort
-Out[16]: array([0, 2, 1, 3], dtype=int64)
-
-x[idx_sort] #rearrange x to make elements from smallest to largest
-Out[17]: array([1, 2, 3, 4])
+Out[31]: array([0, 2, 3, 1], dtype=int64) #id #1 position has largest value, id#3 2nd largest, id#2 3rd larages, id #1 4th largest, or smallest here
+x[idx_sort] # return x after order smallest to largest
+Out[32]: array([1, 2, 3, 4]) 
 
 # 14. Flatten a matrix to one vector of elementwise
 
