@@ -1,4 +1,9 @@
 # PYTHON
+# 16. Extract the last/first 5 elements of a vector
+idv1 = [1,2,3,4,5,6,7,8,9,10]
+idv1[-5:] #last 5 elements
+idv1[:5] #first 5 element
+
 # 15. Sort order of a vector
 x = np.array([1,4,2,3])
 idx_sort = np.argsort(x) #return id of numbers from smallest to largest
