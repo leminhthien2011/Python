@@ -1,4 +1,11 @@
 # PYTHON
+# 17. Degree distribution verify
+def plot_degree_dist(G):
+    degrees = [G.degree(n) for n in G.nodes()]
+    plt.hist(degrees)
+    plt.show()
+
+plot_degree_dist(nx.gnp_random_graph(100, 0.5, directed=True))
 # 16. Extract the last/first 5 elements of a vector
 idv1 = [1,2,3,4,5,6,7,8,9,10]
 idv1[-5:] #last 5 elements
