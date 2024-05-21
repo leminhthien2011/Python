@@ -1,4 +1,17 @@
 # PYTHON
+# 19. Threshold, ndarray to list, and create index need to be removed
+
+
+index_uppercut1 = np.where(weekdaysedges>upperbound_weekdays)[0]
+
+index_uppercut =index_uppercut1.tolist()
+
+index_lowercut1 = np.where(weekdaysedges<lowerbound_weekdays)[0]
+
+index_lowercut = index_lowercut1.tolist()
+
+indexremove = index_lowercut + index_uppercut
+
 # 18. Array and remove a certain index
 allindex = np.array(list(range(0,28)))
 
