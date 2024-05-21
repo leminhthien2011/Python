@@ -1,4 +1,12 @@
 # PYTHON
+# 18. Array and remove a certain index
+allindex = np.array(list(range(0,28)))
+
+weekendindex = [0,6,7,13,14,20,21,27]
+
+weekdaysindex = np.delete(allindex,weekendindex  )
+
+
 # 17. Degree distribution verify
 def plot_degree_dist(G):
     degrees = [G.degree(n) for n in G.nodes()]
